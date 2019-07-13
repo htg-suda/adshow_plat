@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92562589-31e6-4709-9173-bdd6a56ee160" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/store-sms/target/" />
+    <ignored path="$PROJECT_DIR$/store-user/target/" />
+    <ignored path="$PROJECT_DIR$/store-common/target/" />
+    <ignored path="$PROJECT_DIR$/store-auth/target/" />
+    <ignored path="$PROJECT_DIR$/shop-registry/target/" />
+    <ignored path="$PROJECT_DIR$/store-client-feign/target/" />
+    <ignored path="$PROJECT_DIR$/ad-show/target/" />
+    <ignored path="$PROJECT_DIR$/store-file-service/target/" />
+    <ignored path="$PROJECT_DIR$/docker-test/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="adshow_plat" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-test/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/DockerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/controller/TestContoller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/vo/UserVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding>
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sellerSn</find>
+      <find>AGENCY_PARENT_NOT_EXIST</find>
+      <find>String sellerSn = UUID.randomUUID().toString()</find>
+      <find>do {</find>
+      <find>do</find>
+      <find>String sellerSn = UUID.randomUUID().toString();</find>
+      <find>MUST_HAVE_CUSTOM_SERVICE</find>
+      <find>//todo 检测机构是否已经存在</find>
+      <find>DevVerifyDTO</find>
+      <find>sr_scheduling_device_rel</find>
+      <find>getDeviceByMac</find>
+      <find>DEVICE_HAS_NOT_ACTIVE</find>
+      <find>scheduling</find>
+      <find>DEVICE_INVALID_PLAY_RECORD_BY_SCHEDULING_NOT_EXIST</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper/MsgRecordMapper.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/resources/mapping/MsgRecordMapper.xml" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/MsgRecordController.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/SchedulingController.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/PlayRecordPageDTO.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IPlayRecordService.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper/PlayRecordMapper.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/entity/adshow/PlayRecord.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/test/java/com/htg/adshow/AdShowTest.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/PlayRecordDTO.java" />
+        <option value="$PROJECT_DIR$/ad-doc/plat.sql" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/PlayRecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/store-file-service/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/resources/mapping/PlayRecordMapper.xml" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/PlayRecordPageVO.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/message/MsgResult.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/dev/DeviceController.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/DeviceController.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/PlayRecordController.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/constant/MsgStatusConst.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/MSGServiceImpl.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/UploadShotDTO.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/result/CodeEnum.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/ScreenShotVo.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/BaseAreaController.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/AgencyController.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/SchedulingController.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/PlayRecordController.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/dev/FrontDevController.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/dev/FrontPlayRecordController.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/security/ResourceServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/DeviceController.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/MsgRecordController.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/MsgRecordVO.java" />
+        <option value="$PROJECT_DIR$/store-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/store-file-service/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/ad-show/pom.xml" />
+        <option value="$PROJECT_DIR$/store-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/store-user/pom.xml" />
+        <option value="$PROJECT_DIR$/ad-doc/build.sh" />
+        <option value="$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/docker_test.java" />
+        <option value="$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/DockerApplication.java" />
+        <option value="$PROJECT_DIR$/docker-test/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/docker-test/pom.xml" />
+        <option value="$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/vo/UserVO.java" />
+        <option value="$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/controller/TestContoller.java" />
+        <option value="$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/config/Swagger2Config.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="docker-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="docker-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="146" />
+    <option name="y" value="198" />
+    <option name="width" value="1024" />
+    <option name="height" value="555" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="adshow_plat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adshow_plat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adshow_plat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adshow_plat" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adshow_plat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adshow_plat" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.51248753" />
+    <property name="settings.editor.selected.configurable" value="DockerRegistry" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.htg.adshow" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test" />
+      <recent name="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller" />
+      <recent name="$PROJECT_DIR$/ad-show/src/main/resources/mapping" />
+      <recent name="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper" />
+      <recent name="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/entity/adshow" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.htg.common.dto.adshow" />
+      <recent name="com.htg.common.vo.adshow" />
+      <recent name="com.htg.adshow.service" />
+      <recent name="com.htg.adshow.service.impl" />
+      <recent name="com.htg.adshow.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ad-show/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.2620155" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.DockerApplication">
+    <configuration name="AdshowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ad-show" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.htg.adshow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.htg.adshow.AdshowApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="store-auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.htg.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.htg.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DockerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="docker-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.htg.docker_test.DockerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-registry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.htg.registry.RegisterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="store-sms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.htg.sms_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.htg.sms_service.SmsServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreFileService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="store-file-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.htg.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.htg.file.StoreFileService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="store-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.htg.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.htg.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AdshowApplication" />
+        <item itemvalue="Spring Boot.AuthApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.StoreFileService" />
+        <item itemvalue="Spring Boot.SmsServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92562589-31e6-4709-9173-bdd6a56ee160" name="Default Changelist" comment="" />
+      <created>1562031832649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562031832649</updated>
+      <workItem from="1562031836332" duration="961000" />
+      <workItem from="1562032810179" duration="29119000" />
+      <workItem from="1562118042753" duration="23571000" />
+      <workItem from="1562204917924" duration="27960000" />
+      <workItem from="1562291398033" duration="29300000" />
+      <workItem from="1562498546565" duration="45466000" />
+      <workItem from="1562591087716" duration="6776000" />
+      <workItem from="1562637373584" duration="27470000" />
+      <workItem from="1562680085612" duration="1574000" />
+      <workItem from="1562724680548" duration="16222000" />
+      <workItem from="1562764912855" duration="33250000" />
+      <workItem from="1562895838140" duration="27828000" />
+      <workItem from="1562938342769" duration="3664000" />
+      <workItem from="1562984692331" duration="2610000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SimpleTest_test01 - 2019.07.04 at 15h 49m 45s.xml">
+      <configuration name="SimpleTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTest_test01 - 2019.07.04 at 15h 50m 12s.xml">
+      <configuration name="SimpleTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTest_test01 - 2019.07.04 at 15h 50m 40s.xml">
+      <configuration name="SimpleTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTest_test01 - 2019.07.04 at 15h 50m 49s.xml">
+      <configuration name="SimpleTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTest_test01 - 2019.07.04 at 15h 51m 06s.xml">
+      <configuration name="SimpleTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdShowTest_test01 - 2019.07.11 at 15h 51m 41s.xml">
+      <configuration name="AdShowTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdShowTest_test01 - 2019.07.11 at 15h 51m 56s.xml">
+      <configuration name="AdShowTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdShowTest_test01 - 2019.07.11 at 15h 53m 08s.xml">
+      <configuration name="AdShowTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdShowTest_test01 - 2019.07.11 at 15h 53m 33s.xml">
+      <configuration name="AdShowTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdShowTest_test01 - 2019.07.11 at 15h 58m 37s.xml">
+      <configuration name="AdShowTest.test01" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="275771000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49830508" visible="true" weight="0.30500758" />
+      <window_info id="Structure" order="1" sideWeight="0.50212765" side_tool="true" weight="0.24962063" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50212765" side_tool="true" weight="0.24962063" />
+      <window_info id="Web" order="7" sideWeight="0.5016949" side_tool="true" weight="0.24962063" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.41694915" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2559322" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.93559325" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49924126" weight="0.81186444" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.82653064" />
+      <window_info anchor="bottom" id="Docker" order="9" weight="0.28305084" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007587" side_tool="true" weight="0.37118644" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.5881356" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.920339" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.120338984" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.7627119" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962063" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.35432473" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.30273142" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32852808" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32928678" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49830508" visible="true" weight="0.30500758" />
+      <window_info id="Structure" order="1" sideWeight="0.50212765" side_tool="true" weight="0.24962063" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50212765" side_tool="true" weight="0.24962063" />
+      <window_info id="Web" order="7" sideWeight="0.5016949" side_tool="true" weight="0.24962063" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.41694915" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2559322" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.93559325" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49924126" weight="0.81186444" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.050847456" />
+      <window_info anchor="bottom" id="Docker" order="9" weight="0.28305084" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007587" side_tool="true" weight="0.37118644" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.5881356" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.920339" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.120338984" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.76779664" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962063" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.35432473" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.30273142" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32852808" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32928678" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shop-registry/src/main/java/com/htg/registry/RegisterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+          <folding>
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/message/MsgType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/SchedulingShowRelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/SchedulingDeviceRelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/DeviceStatusInfoVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/entity/adshow/MsgRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="151" column="26" lean-forward="true" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/MSGServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="139" column="14" lean-forward="true" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/constant/MsgStatusConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-sms/src/main/java/com/htg/sms_service/service/SMSCodeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/ScreenShotVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/entity/adshow/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/UploadShotDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/ShowInScheduleDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-doc/plat.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="176" column="11" lean-forward="true" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/MqttController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/security/ResourceServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="30" column="67" lean-forward="true" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/PlayRecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/BaseAreaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/AgencyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/ShowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/SchedulingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/MsgRecordVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding>
+            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#2017#2018#0" expanded="true" />
+            <element signature="e#2069#2070#0" expanded="true" />
+            <element signature="e#2113#2114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/MsgRecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="56" column="51" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/AdshowApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="7" column="61" lean-forward="true" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding>
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/DeviceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-auth/src/main/java/com/htg/auth/AuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+          <folding>
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-maven-plugin/2.1.4.RELEASE/spring-boot-maven-plugin-2.1.4.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="118" column="28" lean-forward="true" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/dev/FrontPlayRecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-370">
+          <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/result/CodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="92" column="54" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-registry/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-file-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-client-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-sms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="57" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-doc/adshow_build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/resources/config/mqtt.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="93" selection-start-line="93" selection-end-line="100" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-test/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/config/WebMvcConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/config/MqttConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/config/CORSFilter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/config/Swagger2Config.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/DockerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/dev/FrontDevController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="28" selection-start-line="28" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/vo/UserVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/controller/TestContoller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ad-show</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.51248753" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.51248753" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

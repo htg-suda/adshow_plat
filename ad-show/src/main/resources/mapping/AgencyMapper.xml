@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.htg.adshow.mapper.AgencyMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.htg.common.entity.adshow.Agency">
+        <id column="id" property="id"/>
+        <result column="create_user" property="createUser"/>
+        <result column="update_user" property="updateUser"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="parent_id" property="parentId"/>
+        <result column="num" property="num"/>
+        <result column="name" property="name"/>
+        <result column="contact" property="contact"/>
+        <result column="contact_num" property="contactNum"/>
+        <result column="province" property="province"/>
+        <result column="city" property="city"/>
+        <result column="county" property="county"/>
+        <result column="address_detail" property="addressDetail"/>
+        <result column="remark" property="remark"/>
+        <result column="sort" property="sort"/>
+        <result column="del_flag" property="delFlag"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        create_user,
+        update_user,
+        create_time,
+        update_time,
+        id, parent_id, num, name, contact, contact_num, province, city, county, address_detail, remark, sort, del_flag
+    </sql>
+    <select id="selectByParentId" resultMap="BaseResultMap" parameterType="integer">
+        select
+        <include refid="Base_Column_List"/>
+        from sr_agency where parent_id=#{parentId}
+    </select>
+    <select id="selectByNum" resultMap="BaseResultMap" parameterType="String">
+        select
+        <include refid="Base_Column_List"/>
+        from sr_agency where num=#{num}
+    </select>
+
+    <resultMap id="AgencyPageVOMap" type="com.htg.common.vo.adshow.AgencyPageVO">
+        <id column="id" property="id"/>
+        <result column="num" property="num"/>
+        <result column="name" property="name"/>
+        <result column="contact" property="contact"/>
+        <result column="contact_num" property="contactNum"/>
+        <result column="province" property="province"/>
+        <result column="city" property="city"/>
+        <result column="county" property="county"/>
+        <result column="address_detail" property="addressDetail"/>
+        <result column="parent_name" property="parentName"/>
+    </resultMap>
+
+
+    <select id="selectByPage" resultMap="AgencyPageVOMap" parameterType="map">
+        select
+        SA.id,SA.num,SA.name,SA.contact,SA.contact_num,
+               BA1.cityName as province,
+               BA2.cityName as city,
+               BA3.cityName as county,
+               SA.address_detail,
+               SA1.name AS parent_name
+         from sr_agency SA
+            left join base_area BA1  on SA.province=BA1.codeid
+            left join base_area BA2  on SA.city=BA2.codeid
+            left join base_area BA3  on SA.county=BA3.codeid
+            left join sr_agency SA1  on SA.parent_id=SA1.id
+        <where>
+            <if test="num!=null">
+                SA.num=#{num}
+            </if>
+            <if test="contact!=null">
+               and SA.contact like #{contact}
+            </if>
+            <if test="contactNum!=null">
+                and SA.contact_num=#{contactNum}
+            </if>
+        </where>
+        order by SA.sort asc
+
+    </select>
+
+    <select id="selectByName" resultMap="BaseResultMap" parameterType="String">
+        select
+        <include refid="Base_Column_List"/>
+        from sr_agency where name=#{name}
+    </select>
+</mapper>
