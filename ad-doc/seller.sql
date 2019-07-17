@@ -35,8 +35,8 @@ create table  sr_seller_info(
      agency_id int default null comment '机构id',
        -- 附带信息
      del_flag tinyint default 0 comment '删除状态,0-有效,-1 -删除',
-     create_user varchar(100) not null comment '创建人的id',
-     update_user varchar(100) not null comment '更新人的id',
+     create_user int not null comment '创建人的id',
+     update_user int not null comment '更新人的id',
      create_time datetime not null comment '创建时间',
      update_time datetime not null comment '更新时间'
 )comment '卖家/商户信息表' charset utf8;
@@ -58,8 +58,8 @@ create table sr_seller_enterprise_info(
     bussiness_lic_img_url varchar(255) not null comment '企业营业执照图片地址',
     -- 附带信息
     del_flag tinyint default 0 comment '删除状态,0-有效,-1 -删除',
-    create_user varchar(100) not null comment '创建人的id',
-    update_user varchar(100) not null comment '更新人的id',
+    create_user int not null comment '创建人的id',
+    update_user int not null comment '更新人的id',
     create_time datetime not null comment '创建时间',
     update_time datetime not null comment '更新时间'
 ) comment '企业信息表' charset utf8;
@@ -73,14 +73,14 @@ create table sr_seller_bank_info(
     legal_person_identity_num varchar(50)  comment '法人身份证号码,对于企业商户必须要有法人',
     legal_person_identity_front_url varchar(255)  comment '法人身份证的正面照片',
     legal_person_identity_back_url varchar(255)  comment '法人身份证的背面照片',
-    bank_account_name varchar(50)  not null comment '账户开户人姓名',
-    bank_name varchar(50) not null comment '开户银行',
-    bank_account_card_num  varchar(100) not null comment '开户银行卡号',
+    bank_account_name varchar(50)  comment '账户开户人姓名',
+    bank_name varchar(50) comment '开户银行',
+    bank_account_card_num  varchar(100) comment '开户银行卡号',
     bank_account_permit_num varchar(100) comment '开户许可证编码,对于企业商户必须要有',
     -- 附带信息
     del_flag tinyint default 0 comment '删除状态,0-有效,-1 -删除',
-    create_user varchar(100) not null comment '创建人的id',
-    update_user varchar(100) not null comment '更新人的id',
+    create_user int not null comment '创建人的id',
+    update_user int not null comment '更新人的id',
     create_time datetime not null comment '创建时间',
     update_time datetime not null comment '更新时间'
 )comment '银行信息表' charset utf8;
@@ -98,8 +98,8 @@ create table sr_seller_store(
     status_remark varchar(255) default null  comment  '状态说明 ,比如冻结原因',
     -- 附带信息
     del_flag tinyint default 0 comment '删除状态,0-有效,-1 -删除',
-    create_user varchar(100) not null comment '创建人的id',
-    update_user varchar(100) not null comment '更新人的id',
+    create_user int not null comment '创建人的id',
+    update_user int not null comment '更新人的id',
     create_time datetime not null comment '创建时间',
     update_time datetime not null comment '更新时间'
 ) comment '商铺表' charset utf8;

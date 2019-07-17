@@ -35,7 +35,7 @@ public class SellerModifyInfo {
     private String adminMobPhone;
 
 
-    @NotBlank(message = "经营范围不能为空")
+    //@NotBlank(message = "经营范围不能为空")
     @ApiModelProperty(value = "经营范围 以逗号隔开",example = "教育,文化,娱乐")
     private String businessRange;
     /**

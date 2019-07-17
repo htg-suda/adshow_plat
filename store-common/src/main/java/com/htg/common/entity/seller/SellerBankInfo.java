@@ -52,20 +52,20 @@ public class SellerBankInfo extends BaseEntity {
     private String legalPersonIdentityBackUrl;
 
 
-    @NotBlank(message = "账户开户人姓名不能为空")
+  //  @NotBlank(message = "账户开户人姓名不能为空")
     @ApiModelProperty(value = "账户开户人姓名",example = "招财猫")
     @TableField("bank_account_name")
     private String bankAccountName;
     /**
      * 开户银行
      */
-    @NotBlank(message = "开户银行不能为空")
+  //  @NotBlank(message = "开户银行不能为空")
     @ApiModelProperty(value = "开户银行",example = "上海银行")
     @TableField("bank_name")
     private String bankName;
 
 
-    @NotBlank(message = "开户银行卡号不能为空")
+  //  @NotBlank(message = "开户银行卡号不能为空")
     @ApiModelProperty(value = "开户银行卡号",example = "54356234623446234")
     @TableField("bank_account_card_num")
     private String bankAccountCardNum;

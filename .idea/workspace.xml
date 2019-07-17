@@ -1,7 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/seller/SellerDeviceController.java" line="26" mnemonic="2" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="92562589-31e6-4709-9173-bdd6a56ee160" name="Default Changelist" comment="" />
+    <list default="true" id="92562589-31e6-4709-9173-bdd6a56ee160" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ad-doc/permission.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/inner/InnerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/seller/SellerDeviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/seller/SellerScheduleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/seller/SellerShowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-test/src/main/docker/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-test/src/main/docker/file/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-test/src/main/docker/file/mysqldb-dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-test/src/main/docker/file/springapp-dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/MsgRecordPageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/SellerDevListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/SellerDevVerifyListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SellerVerifyListDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/SellerDeviceStatisticsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/seller/system/SysVerifySellerListItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-doc/plat.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ad-doc/plat.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-doc/seller.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ad-doc/seller.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/dev/FrontDevController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/dev/FrontDevController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/dev/FrontPlayRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/dev/FrontPlayRecordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/DeviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/DeviceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/MsgRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/MsgRecordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper/DeviceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper/DeviceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper/MsgRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper/MsgRecordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper/ShowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper/ShowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/security/ResourceServerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/security/ResourceServerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IDeviceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IDeviceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IMsgRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IMsgRecordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IPlayRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IPlayRecordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IShowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IShowService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/DeviceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/DeviceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/MsgRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/MsgRecordServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/PlayRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/PlayRecordServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/ShowServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/ShowServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/resources/mapping/DeviceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/resources/mapping/DeviceMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/resources/mapping/MsgRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/resources/mapping/MsgRecordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/resources/mapping/PlayRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/resources/mapping/PlayRecordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-show/src/main/resources/mapping/ShowMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ad-show/src/main/resources/mapping/ShowMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/vo/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-auth/src/main/java/com/htg/auth/security/SrUserDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-auth/src/main/java/com/htg/auth/security/SrUserDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-auth/src/main/java/com/htg/auth/security/mobile/SmsCodeAuthenticationSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-auth/src/main/java/com/htg/auth/security/mobile/SmsCodeAuthenticationSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/constant/SellerConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/constant/SellerConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/constant/ShopConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/constant/ShopConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/shop/SellerAddDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/shop/SellerAddDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SellerBankModifyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SellerBankModifyInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SellerListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SellerListDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SellerModifyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SellerModifyInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SysSellerAddDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SysSellerAddDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SysSellerModifyDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SysSellerModifyDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/entity/seller/SellerBankInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/entity/seller/SellerBankInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/entity/seller/SellerEnterpriseInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/entity/seller/SellerEnterpriseInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/MsgRecordVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/MsgRecordVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/SchedulingVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/SchedulingVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/seller/shop/ShopSellerInfoVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/seller/shop/ShopSellerInfoVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/seller/system/SysSellerListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/seller/system/SysSellerListItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/seller/user/SellerStatusInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/seller/user/SellerStatusInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-user/src/main/java/com/htg/user/controller/system/SystemSellerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-user/src/main/java/com/htg/user/controller/system/SystemSellerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-user/src/main/java/com/htg/user/mapper/SellerInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-user/src/main/java/com/htg/user/mapper/SellerInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-user/src/main/java/com/htg/user/service/ISellerInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-user/src/main/java/com/htg/user/service/ISellerInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-user/src/main/java/com/htg/user/service/impl/SellerInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-user/src/main/java/com/htg/user/service/impl/SellerInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-user/src/main/java/com/htg/user/service/impl/SrUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-user/src/main/java/com/htg/user/service/impl/SrUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-user/src/main/resources/mapping/SellerInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/store-user/src/main/resources/mapping/SellerInfoMapper.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/store-sms/target/" />
@@ -45,54 +113,93 @@
     <favorites_list name="adshow_plat" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-test/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/constant/DevConst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="234">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/DockerApplication.java">
+        <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/PlayRecordController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="108">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/DeviceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IDeviceService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/controller/TestContoller.java">
+        <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/DeviceServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            <state relative-caret-position="763">
+              <caret line="197" column="5" lean-forward="true" selection-start-line="197" selection-start-column="5" selection-end-line="197" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/vo/UserVO.java">
+        <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IPlayRecordService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/PlayRecordServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper/PlayRecordMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ad-show/src/main/resources/mapping/PlayRecordMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/MsgRecordVO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-              <folding>
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-              </folding>
+              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -122,6 +229,12 @@
       <find>DEVICE_HAS_NOT_ACTIVE</find>
       <find>scheduling</find>
       <find>DEVICE_INVALID_PLAY_RECORD_BY_SCHEDULING_NOT_EXIST</find>
+      <find>add</find>
+      <find>BeanUtils.copyProperties(sellerBankInfo, bankInfoVo)</find>
+      <find>bankInfoVo</find>
+      <find>bankInfo</find>
+      <find>DateTime.now().toString(&quot;yyyy-MM-dd&quot;)</find>
+      <find>ModifySeller</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,57 +243,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper/MsgRecordMapper.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/resources/mapping/MsgRecordMapper.xml" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/MsgRecordController.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/SchedulingController.java" />
-        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/PlayRecordPageDTO.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IPlayRecordService.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper/PlayRecordMapper.java" />
-        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/entity/adshow/PlayRecord.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/test/java/com/htg/adshow/AdShowTest.java" />
-        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/PlayRecordDTO.java" />
-        <option value="$PROJECT_DIR$/ad-doc/plat.sql" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/PlayRecordServiceImpl.java" />
-        <option value="$PROJECT_DIR$/store-file-service/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/resources/mapping/PlayRecordMapper.xml" />
-        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/PlayRecordPageVO.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/message/MsgResult.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/dev/DeviceController.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/DeviceController.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/PlayRecordController.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/constant/MsgStatusConst.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/MSGServiceImpl.java" />
-        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/UploadShotDTO.java" />
-        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/result/CodeEnum.java" />
-        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/ScreenShotVo.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/BaseAreaController.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/AgencyController.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/SchedulingController.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/PlayRecordController.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/shop/SellerAddDto.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/entity/seller/SellerEnterpriseInfo.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SysSellerAddDto.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/constant/ShopConst.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/seller/user/SellerStatusInfo.java" />
+        <option value="$PROJECT_DIR$/store-user/src/main/java/com/htg/user/service/impl/SrUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/dev/FrontDevController.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SellerVerifyListDto.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SellerListDto.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/seller/system/SysVerifySellerListItem.java" />
+        <option value="$PROJECT_DIR$/store-user/src/main/java/com/htg/user/service/ISellerInfoService.java" />
+        <option value="$PROJECT_DIR$/store-user/src/main/java/com/htg/user/mapper/SellerInfoMapper.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/constant/SellerConst.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/seller/system/SysSellerListItem.java" />
+        <option value="$PROJECT_DIR$/store-user/src/main/resources/mapping/SellerInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper/DeviceMapper.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/SchedulingVO.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/resources/mapping/ShowMapper.xml" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper/ShowMapper.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/resources/mapping/DeviceMapper.xml" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IShowService.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IPlayRecordService.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/ShowServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IDeviceService.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/PlayRecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/SellerDeviceStatisticsVO.java" />
         <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/dev/FrontPlayRecordController.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/inner/InnerController.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/security/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/security/ResourceServerConfiguration.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/DeviceController.java" />
-        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/MsgRecordController.java" />
+        <option value="$PROJECT_DIR$/store-user/src/main/java/com/htg/user/controller/system/SystemSellerController.java" />
+        <option value="$PROJECT_DIR$/ad-doc/user.sql" />
+        <option value="$PROJECT_DIR$/ad-doc/plat.sql" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/seller/shop/ShopSellerInfoVo.java" />
+        <option value="$PROJECT_DIR$/store-user/src/main/java/com/htg/user/service/impl/SellerInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ad-doc/permission.sql" />
+        <option value="$PROJECT_DIR$/store-auth/src/main/java/com/htg/auth/security/SrUserDetailService.java" />
+        <option value="$PROJECT_DIR$/store-auth/src/main/java/com/htg/auth/security/mobile/SmsCodeAuthenticationSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SellerModifyInfo.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SellerBankModifyInfo.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SysSellerModifyDto.java" />
         <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/MsgRecordVO.java" />
-        <option value="$PROJECT_DIR$/store-sms/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/store-file-service/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-registry/pom.xml" />
-        <option value="$PROJECT_DIR$/ad-show/pom.xml" />
-        <option value="$PROJECT_DIR$/store-auth/pom.xml" />
-        <option value="$PROJECT_DIR$/store-user/pom.xml" />
-        <option value="$PROJECT_DIR$/ad-doc/build.sh" />
-        <option value="$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/docker_test.java" />
-        <option value="$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/DockerApplication.java" />
-        <option value="$PROJECT_DIR$/docker-test/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/docker-test/pom.xml" />
-        <option value="$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/vo/UserVO.java" />
-        <option value="$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/controller/TestContoller.java" />
-        <option value="$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/config/Swagger2Config.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IMsgRecordService.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper/MsgRecordMapper.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/MsgRecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/message/MsgType.java" />
+        <option value="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/MsgRecordPageDTO.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/resources/mapping/MsgRecordMapper.xml" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/MsgRecordController.java" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/resources/mapping/PlayRecordMapper.xml" />
+        <option value="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/DeviceServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -189,20 +302,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="docker-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="adshow_plat" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="docker-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="adshow_plat" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="146" />
-    <option name="y" value="198" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="66" />
+    <option name="y" value="69" />
     <option name="width" value="1024" />
     <option name="height" value="555" />
   </component>
@@ -212,6 +325,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,12 +344,50 @@
               <item name="docker-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="adshow_plat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adshow_plat" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adshow_plat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adshow_plat" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adshow_plat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adshow_plat" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adshow_plat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adshow_plat" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adshow_plat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adshow_plat" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="CatdeaLogs" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -245,9 +397,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ad-doc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -257,25 +410,26 @@
     <property name="settings.editor.selected.configurable" value="DockerRegistry" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker-test/src/main/docker/file" />
+      <recent name="$PROJECT_DIR$/ad-show/src/main/resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.htg.adshow" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.htg.common.vo.seller.system" />
+      <recent name="com.htg.common.dto.seller.system" />
+      <recent name="com.htg.adshow.controller.seller" />
+      <recent name="com.htg.common.dto.adshow" />
+      <recent name="com.htg.common.vo.adshow" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ad-doc" />
       <recent name="$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test" />
       <recent name="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller" />
       <recent name="$PROJECT_DIR$/ad-show/src/main/resources/mapping" />
       <recent name="$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper" />
-      <recent name="$PROJECT_DIR$/store-common/src/main/java/com/htg/common/entity/adshow" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.htg.common.dto.adshow" />
-      <recent name="com.htg.common.vo.adshow" />
-      <recent name="com.htg.adshow.service" />
-      <recent name="com.htg.adshow.service.impl" />
-      <recent name="com.htg.adshow.controller" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ad-show/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -294,9 +448,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.2620155" />
+    <option name="contentProportion" value="0.30620155" />
   </component>
-  <component name="RunManager" selected="Spring Boot.DockerApplication">
+  <component name="RunManager" selected="Spring Boot.AdshowApplication">
     <configuration name="AdshowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ad-show" />
       <extension name="coverage">
@@ -379,10 +533,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.AdshowApplication" />
-        <item itemvalue="Spring Boot.AuthApplication" />
         <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.StoreFileService" />
         <item itemvalue="Spring Boot.SmsServiceApplication" />
+        <item itemvalue="Spring Boot.AuthApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +563,9 @@
       <workItem from="1562764912855" duration="33250000" />
       <workItem from="1562895838140" duration="27828000" />
       <workItem from="1562938342769" duration="3664000" />
-      <workItem from="1562984692331" duration="2610000" />
+      <workItem from="1562984692331" duration="18263000" />
+      <workItem from="1563018342975" duration="54890000" />
+      <workItem from="1563326185413" duration="425000" />
     </task>
     <servers />
   </component>
@@ -446,7 +602,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275771000" />
+    <option name="totallyTimeSpent" value="346739000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,9 +614,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49830508" visible="true" weight="0.30500758" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49830508" visible="true" weight="0.3345979" />
       <window_info id="Structure" order="1" sideWeight="0.50212765" side_tool="true" weight="0.24962063" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -469,25 +626,25 @@
       <window_info id="Favorites" order="6" sideWeight="0.50212765" side_tool="true" weight="0.24962063" />
       <window_info id="Web" order="7" sideWeight="0.5016949" side_tool="true" weight="0.24962063" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.41694915" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2559322" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.41666666" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5255102" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.93559325" />
-      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49924126" weight="0.81186444" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.82653064" />
-      <window_info anchor="bottom" id="Docker" order="9" weight="0.28305084" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49924126" weight="0.8095238" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.74489796" />
+      <window_info anchor="bottom" id="Docker" order="9" weight="0.7942177" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007587" side_tool="true" weight="0.37118644" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.5881356" />
-      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.920339" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.120338984" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.7627119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.5867347" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.920068" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32993197" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.11904762" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.5442177" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962063" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.35432473" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.30273142" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3505311" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32852808" />
@@ -496,7 +653,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32928678" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49830508" visible="true" weight="0.30500758" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49830508" visible="true" weight="0.30273142" />
       <window_info id="Structure" order="1" sideWeight="0.50212765" side_tool="true" weight="0.24962063" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -505,25 +662,25 @@
       <window_info id="Favorites" order="6" sideWeight="0.50212765" side_tool="true" weight="0.24962063" />
       <window_info id="Web" order="7" sideWeight="0.5016949" side_tool="true" weight="0.24962063" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.41694915" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2559322" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.41666666" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0867347" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.93559325" />
-      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49924126" weight="0.81186444" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.050847456" />
-      <window_info anchor="bottom" id="Docker" order="9" weight="0.28305084" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49924126" weight="0.8095238" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.8894558" />
+      <window_info anchor="bottom" id="Docker" order="9" weight="0.7942177" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007587" side_tool="true" weight="0.37118644" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.5881356" />
       <window_info anchor="bottom" id="Database Changes" order="12" weight="0.920339" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.120338984" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.76779664" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.088435374" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962063" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.35432473" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.30273142" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.42943853" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32852808" />
@@ -540,406 +697,380 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shop-registry/src/main/java/com/htg/registry/RegisterApplication.java">
+    <entry file="file://$PROJECT_DIR$/ad-doc/user.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+        <state relative-caret-position="-1289">
+          <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/seller/system/SysSellerListItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-doc/permission.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-auth/src/main/java/com/htg/auth/mapper/GroupPermissionMappingMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-auth/src/main/java/com/htg/auth/service/impl/GroupPermissionMappingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-user/src/main/java/com/htg/user/service/impl/SrUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="93" column="33" lean-forward="true" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
           <folding>
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#6567#6568#0" expanded="true" />
+            <element signature="e#6627#6628#0" expanded="true" />
+            <element signature="e#6689#6690#0" expanded="true" />
+            <element signature="e#6739#6740#0" expanded="true" />
+            <element signature="e#6805#6806#0" expanded="true" />
+            <element signature="e#6859#6860#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/message/MsgType.java">
+    <entry file="file://$PROJECT_DIR$/store-user/src/main/resources/mapping/SrUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-user/src/main/java/com/htg/user/mapper/SrUserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/SchedulingShowRelController.java">
+    <entry file="file://$PROJECT_DIR$/store-user/src/main/java/com/htg/user/service/ISrUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="15">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/SchedulingDeviceRelController.java">
+    <entry file="file://$PROJECT_DIR$/store-user/src/main/java/com/htg/user/controller/user/SrUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="216">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-auth/src/main/java/com/htg/auth/service/IGroupPermissionMappingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-client-feign/src/main/java/com/htg/feign/client/UserClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SellerEnterpriseModifyInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SellerBankModifyInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SysSellerModifyDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-user/src/main/java/com/htg/user/controller/system/SystemSellerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-user/src/main/java/com/htg/user/service/impl/SellerInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="436" column="50" selection-start-line="436" selection-start-column="50" selection-end-line="436" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SellerModifyInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/DeviceStatusInfoVO.java">
+    <entry file="file://$PROJECT_DIR$/store-auth/src/main/java/com/htg/auth/security/mobile/SmsCodeAuthenticationSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="38" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/bo/user/SrUserBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-auth/src/main/java/com/htg/auth/security/SrUserDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/PlayRecordPageDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IMsgRecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/resources/mapping/ShowMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/resources/mapping/AgencyMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-760">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/entity/adshow/MsgRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="151" column="26" lean-forward="true" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/MSGServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="139" column="14" lean-forward="true" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+        <state relative-caret-position="-515">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/constant/MsgStatusConst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-sms/src/main/java/com/htg/sms_service/service/SMSCodeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/ScreenShotVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/entity/adshow/Device.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/UploadShotDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/ShowInScheduleDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-doc/plat.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="176" column="11" lean-forward="true" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/MqttController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/security/ResourceServerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="30" column="67" lean-forward="true" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/PlayRecordController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/BaseAreaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/AgencyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/ShowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/SchedulingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/MsgRecordVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-          <folding>
-            <element signature="e#1984#1985#0" expanded="true" />
-            <element signature="e#2017#2018#0" expanded="true" />
-            <element signature="e#2069#2070#0" expanded="true" />
-            <element signature="e#2113#2114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/MsgRecordController.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="56" column="51" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/AdshowApplication.java">
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/message/MsgType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/msg/SnMsg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="7" column="61" lean-forward="true" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-          <folding>
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-          </folding>
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/DeviceController.java">
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/MsgRecordPageDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="144">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-auth/src/main/java/com/htg/auth/AuthApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-          <folding>
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-maven-plugin/2.1.4.RELEASE/spring-boot-maven-plugin-2.1.4.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="118" column="28" lean-forward="true" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/dev/FrontPlayRecordController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-370">
-          <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/result/CodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="92" column="54" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-auth/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-registry/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-file-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-client-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-sms/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="57" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-doc/adshow_build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/src/main/resources/config/mqtt.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-show/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="93" selection-start-line="93" selection-end-line="100" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-test/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/config/WebMvcConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/config/MqttConfig.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/config/MybatisPlusConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/config/CORSFilter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/config/Swagger2Config.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/DockerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/dev/FrontDevController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="28" selection-start-line="28" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="93">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper/MsgRecordMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/resources/mapping/DeviceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="55" lean-forward="true" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/resources/mapping/MsgRecordMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-doc/area.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3506" column="89" lean-forward="true" selection-start-line="3506" selection-start-column="89" selection-end-line="3506" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/MsgRecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/vo/UserVO.java">
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/MsgRecordServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-test/src/main/java/com/htg/docker_test/controller/TestContoller.java">
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/MSGServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        <state relative-caret-position="177">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/seller/system/SellerListDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/DeviceVerifyDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/dto/adshow/DevVerifyListDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/constant/DevConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/PlayRecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/controller/sys/DeviceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IDeviceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/IPlayRecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/PlayRecordServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/mapper/PlayRecordMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/resources/mapping/PlayRecordMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-common/src/main/java/com/htg/common/vo/adshow/MsgRecordVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-show/src/main/java/com/htg/adshow/service/impl/DeviceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="197" column="5" lean-forward="true" selection-start-line="197" selection-start-column="5" selection-end-line="197" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -993,12 +1124,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ad-show</last-edited>
+          <last-edited>Spring|ad-show</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.51248753" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

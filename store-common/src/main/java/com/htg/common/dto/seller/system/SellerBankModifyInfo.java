@@ -15,42 +15,42 @@ import javax.validation.constraints.NotBlank;
  */
 public class SellerBankModifyInfo extends BaseEntity {
 
-    @NotBlank(message = "法人姓名,对于企业商户必须要有法人")
+  //  @NotBlank(message = "法人姓名,对于企业商户必须要有法人")
     @ApiModelProperty(value = "法人姓名", example = "招财猫")
     private String legalPersonName;
 
-    @NotBlank(message = "对于企业商户必须要有法人")
+    //  @NotBlank(message = "对于企业商户必须要有法人")
     @ApiModelProperty(value = "法人身份证号码", example = "346767655434521678")
     private String legalPersonIdentityNum;
 
 
-    @NotBlank(message = "法人身份证的正面照片不能为空")
+    //  @NotBlank(message = "法人身份证的正面照片不能为空")
     @ApiModelProperty(value = "法人身份证的正面照片", example = "xxxx.png")
     private String legalPersonIdentityFrontUrl;
 
 
-    @NotBlank(message = "法人身份证的背面照片不能为空")
+    // @NotBlank(message = "法人身份证的背面照片不能为空")
     @ApiModelProperty(value = "法人身份证的正面照片", example = "xxxx.png")
     private String legalPersonIdentityBackUrl;
 
 
-    @NotBlank(message = "账户开户人姓名不能为空")
+    //  @NotBlank(message = "账户开户人姓名不能为空")
     @ApiModelProperty(value = "账户开户人姓名", example = "招财猫")
     private String bankAccountName;
     /**
      * 开户银行
      */
-    @NotBlank(message = "开户银行不能为空")
+    //  @NotBlank(message = "开户银行不能为空")
     @ApiModelProperty(value = "开户银行", example = "上海银行")
     private String bankName;
 
 
-    @NotBlank(message = "开户银行卡号不能为空")
+    // @NotBlank(message = "开户银行卡号不能为空")
     @ApiModelProperty(value = "开户银行卡号", example = "54356234623446234")
     private String bankAccountCardNum;
 
 
-    @NotBlank(message = "开户许可证编码,对于企业商户必须要有")
+    //  @NotBlank(message = "开户许可证编码,对于企业商户必须要有")
     @ApiModelProperty(value = "开户许可证编码", example = "记记记哦积极哦i机")
     private String bankAccountPermitNum;
 

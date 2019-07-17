@@ -35,7 +35,7 @@ public class SellerEnterpriseInfo extends BaseEntity {
     private String enterpriseName;
 
 
-    @Length(max = 15, min = 15, message = "企业税号必须15位")
+    @Length(max = 18, min = 15, message = "15位税号或18位社会信用代码不能为空")
     @NotBlank(message = "企业税号不能为空")
     @ApiModelProperty(value = "15位企业税号", example = "XXXXXXXXXXXXXXX")
     @TableField("tax_sn")
@@ -82,7 +82,7 @@ public class SellerEnterpriseInfo extends BaseEntity {
 
 
 
-    @NotBlank(message = "企业营业执照图片地址不能为空")
+  //  @NotBlank(message = "企业营业执照图片地址不能为空")
     @ApiModelProperty(value = "企业营业执照图片地址", example = "xxxxxx.png")
     @TableField("bussiness_lic_img_url")
     private String bussinessLicImgUrl;

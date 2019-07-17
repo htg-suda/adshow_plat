@@ -3,6 +3,7 @@ package com.htg.docker_test.vo;
 public class UserVO {
 
     private String username;
+
     private String password;
 
     public String getUsername() {

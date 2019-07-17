@@ -31,4 +31,9 @@ public interface DeviceMapper extends BaseMapper<Device> {
 
     SchedulingVO selectSchedulingVO(Integer schedulingId);
 
+    List<DeviceListVo> selectSellerDevList(Page<DeviceListVo> page, Integer deviceId, Integer status, Integer onlineStatus, String sellerSN);
+
+    List<DeviceInfoVo> selectSellerDevVerifyList(Page<DeviceInfoVo> page, String sellerSN, Integer type, Integer deviceId, Integer statusHasNotVerfiy);
+
+    Integer selectByCountBySn(String sellerSN);
 }

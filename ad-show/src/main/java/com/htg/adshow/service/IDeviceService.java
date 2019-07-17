@@ -45,4 +45,13 @@ public interface IDeviceService extends IService<Device> {
     CommonResult changeStatus(DevModifyStatusDTO devModifyStatusDTO);
 
 
+    CommonResult<RespPage<DeviceListVo>> getSellerDeviceList(SellerDevListDTO listDTO);
+
+    CommonResult<RespPage<DeviceInfoVo>> getSellerVerifyDeviceList(SellerDevVerifyListDTO devVerifyListDTO);
+
+    Integer getDeviceCountBySN(String sellerSN);
+
+
+
+
 }

@@ -19,6 +19,7 @@ import com.htg.common.entity.seller.SellerInfo;
 import com.htg.common.exception.GlobalException;
 import com.htg.common.msg.SnMsg;
 import com.htg.common.result.*;
+import com.htg.common.utils.AuthUtil;
 import com.htg.common.vo.adshow.*;
 import com.htg.feign.client.UserClient;
 import org.apache.commons.lang.ArrayUtils;
@@ -26,6 +27,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import sun.security.action.GetLongAction;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -125,7 +127,7 @@ public class DeviceServiceImpl extends ServiceImpl<DeviceMapper, Device> impleme
         if (device == null) {
             statusInfoVO.setSn(null);
             statusInfoVO.setStatus(DevConst.STATUS_DEV_NOT_EXIST);
-        } else if (device.getStatus() != DevConst.STATUS_ACTIVE &&  device.getStatus() != DevConst.STATUS_FROZEN) {
+        } else if (device.getStatus() != DevConst.STATUS_ACTIVE && device.getStatus() != DevConst.STATUS_FROZEN) {
             statusInfoVO.setSn(null);
             statusInfoVO.setStatus(device.getStatus());
         } else {
@@ -138,7 +140,7 @@ public class DeviceServiceImpl extends ServiceImpl<DeviceMapper, Device> impleme
 
     @Override
     public CommonResult<RespPage<DeviceInfoVo>> getVerifyDeviceList(DevVerifyListDTO devVerifyListDTO) {
-        Page<DeviceInfoVo> page = new Page<>(devVerifyListDTO.getPageNum(), devVerifyListDTO.getPageNum());
+        Page<DeviceInfoVo> page = new Page<>(devVerifyListDTO.getPageNum(), devVerifyListDTO.getPageSize());
         String sellerName = devVerifyListDTO.getSellerName();
         Integer type = devVerifyListDTO.getType();
         Integer deviceId = devVerifyListDTO.getDeviceId();
@@ -175,7 +177,8 @@ public class DeviceServiceImpl extends ServiceImpl<DeviceMapper, Device> impleme
 
         if (device == null) throw new GlobalException(CodeEnum.DEVICE_NOT_EXIST);
 
-        if (device.getStatus() != DevConst.STATUS_ACTIVE && device.getStatus() != DevConst.STATUS_FROZEN) throw new GlobalException(CodeEnum.DEVICE_HAS_NOT_ACTIVE);
+        if (device.getStatus() != DevConst.STATUS_ACTIVE && device.getStatus() != DevConst.STATUS_FROZEN)
+            throw new GlobalException(CodeEnum.DEVICE_HAS_NOT_ACTIVE);
 
 
         List<SchedulingVO> schedulingVOS = baseMapper.selectSchedulingVOList(device.getId());
@@ -205,7 +208,8 @@ public class DeviceServiceImpl extends ServiceImpl<DeviceMapper, Device> impleme
     public CommonResult<RespPage<SchedulingVO>> getScheduleListByPage(String sn, Integer pageNum, Integer pageSize) {
         Device device = baseMapper.selectBySN(sn);
         if (device == null) throw new GlobalException(CodeEnum.DEVICE_NOT_EXIST);
-        if (device.getStatus() != DevConst.STATUS_ACTIVE && device.getStatus() != DevConst.STATUS_FROZEN) throw new GlobalException(CodeEnum.DEVICE_HAS_NOT_ACTIVE);
+        if (device.getStatus() != DevConst.STATUS_ACTIVE && device.getStatus() != DevConst.STATUS_FROZEN)
+            throw new GlobalException(CodeEnum.DEVICE_HAS_NOT_ACTIVE);
         /* 查询的条件 */
         Wrapper<SchedulingDeviceRel> wrapper = new EntityWrapper<>();
         wrapper.eq("device_id", device.getId());
@@ -284,6 +288,50 @@ public class DeviceServiceImpl extends ServiceImpl<DeviceMapper, Device> impleme
         return CommonResult.success("更新设备状态成功");
     }
 
+    @Override
+    public CommonResult<RespPage<DeviceListVo>> getSellerDeviceList(SellerDevListDTO listDTO) {
+        Integer loginUserId = AuthUtil.getLoginUserId();
+        SellerInfo sellerInfo = userClient.getSellerInfoByUserId(loginUserId);
+        if (sellerInfo == null) throw new GlobalException(CodeEnum.SELLER_NOT_EXIST);
+        String sn = sellerInfo.getSn();
+        Integer deviceId = listDTO.getDeviceId();
+        Integer status = listDTO.getStatus();
+        Integer onlineStatus = listDTO.getOnlineStatus();
+        Page<DeviceListVo> page = new Page<>(listDTO.getPageNum(), listDTO.getPageSize());
+        List<DeviceListVo> list = baseMapper.selectSellerDevList(page, deviceId, status, onlineStatus, sn);
+        for (DeviceListVo deviceListVo : list) {
+            //   Integer id = deviceListVo.getId();
+            int showCount = 0;
+            List<SchedulingVO> schedulingVOS = baseMapper.selectSchedulingVOList(deviceListVo.getId());
+            //Collection<SchedulingVO> schedulingVOS = getShowList(deviceListVo.getSn()).getData().getList();
+            for (SchedulingVO schedulingVO : schedulingVOS) {
+                int size = schedulingVO.getShowVOList().size();
+                showCount += size;
+            }
+            deviceListVo.setShowCount(showCount);
+        }
+
+        return CommonResult.success(new RespPage<>(list, page.getTotal()));
+    }
+
+    @Override
+    public CommonResult<RespPage<DeviceInfoVo>> getSellerVerifyDeviceList(SellerDevVerifyListDTO devVerifyListDTO) {
+        Integer loginUserId = AuthUtil.getLoginUserId();
+        SellerInfo sellerInfo = userClient.getSellerInfoByUserId(loginUserId);
+        if (sellerInfo == null) throw new GlobalException(CodeEnum.SELLER_NOT_EXIST);
+        String sn = sellerInfo.getSn();
+        Page<DeviceInfoVo> page = new Page<>(devVerifyListDTO.getPageNum(), devVerifyListDTO.getPageNum());
+        Integer type = devVerifyListDTO.getType();
+        Integer deviceId = devVerifyListDTO.getDeviceId();
+        List<DeviceInfoVo> list = baseMapper.selectSellerDevVerifyList(page, sn, type, deviceId, DevConst.STATUS_HAS_NOT_VERFIY);
+        return CommonResult.success(new RespPage<>(list, page.getTotal()));
+    }
+
+    @Override
+    public Integer getDeviceCountBySN(String sn) {
+
+        return baseMapper.selectByCountBySn(sn);
+    }
 
 
 }

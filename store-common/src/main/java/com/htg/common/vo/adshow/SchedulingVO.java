@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.enums.IdType;
 import io.swagger.annotations.ApiModelProperty;
+
+import javax.validation.constraints.NotBlank;
 import java.util.Date;
 import java.util.List;
 
@@ -28,6 +30,9 @@ public class SchedulingVO {
     @ApiModelProperty(value = "播放模式 1-在线播放,2-本地播放", example = "0")
     @TableField("play_mode")
     private Integer playMode;
+
+    @ApiModelProperty(value = "节目播放周次", example = "1,2,3,4,5,6")
+    private String dayInWeek;
 
 
     @ApiModelProperty(value = "节目开始时间", example = "0")
@@ -98,7 +103,6 @@ public class SchedulingVO {
     }
 
 
-
     public List<ShowVO> getShowVOList() {
         return showVOList;
     }
@@ -125,6 +129,13 @@ public class SchedulingVO {
         this.releaseTime = releaseTime;
     }
 
+    public String getDayInWeek() {
+        return dayInWeek;
+    }
+
+    public void setDayInWeek(String dayInWeek) {
+        this.dayInWeek = dayInWeek;
+    }
 
     @Override
     public String toString() {
@@ -133,6 +144,7 @@ public class SchedulingVO {
                 ", name='" + name + '\'' +
                 ", releaseType=" + releaseType +
                 ", playMode=" + playMode +
+                ", dayInWeek='" + dayInWeek + '\'' +
                 ", startTime=" + startTime +
                 ", endTime=" + endTime +
                 ", releaseTime=" + releaseTime +
@@ -141,3 +153,5 @@ public class SchedulingVO {
                 '}';
     }
 }
+
+

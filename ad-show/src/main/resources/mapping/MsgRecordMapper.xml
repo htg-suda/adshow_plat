@@ -29,4 +29,46 @@
         id, num, type, tag, sn, initiator, start_time, end_time, status, del_flag
     </sql>
 
+
+    <sql id="Page_Column_List">
+        MR.num, MR.tag, MR.sn, SD.mac,MR.initiator,
+        DATE_FORMAT(MR.start_time,'%Y-%m-%d %T') as start_time ,
+        DATE_FORMAT(MR.end_time,'%Y-%m-%d %T') as end_time ,
+        MR.status
+    </sql>
+
+
+    <resultMap id="Map01" type="com.htg.common.vo.adshow.MsgRecordVO">
+        <result column="num" property="num"/>
+        <result column="tag" property="tag"/>
+        <result column="sn" property="sn"/>
+        <result column="mac" property="mac"></result>
+        <result column="initiator" property="initiator"/>
+        <result column="start_time" property="startTime"/>
+        <result column="end_time" property="endTime"/>
+        <result column="status" property="status"/>
+    </resultMap>
+
+    <select id="selectByPage" resultMap="Map01" parameterType="map">
+        select
+        <include refid="Page_Column_List" />
+        from sr_msg_record MR
+        left join sr_device SD on MR.sn=SD.sn
+        <where>
+            <if test="name!=null">
+                MR.initiator like #{name}
+            </if>
+            <if test="sn!=null">
+                and MR.sn = #{sn}
+            </if>
+            <if test="mac!=null">
+                and SD.mac like #{mac}
+            </if>
+            <if test="type!=null">
+                and MR.type = #{type}
+            </if>
+        </where>
+        order by MR.update_time desc
+    </select>
+
 </mapper>

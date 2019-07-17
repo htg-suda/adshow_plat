@@ -230,7 +230,5 @@ public class DeviceController {
         screenShotVo.setUrl(shotUrl);
         return CommonResult.success(screenShotVo);
     }
-
-
 }
 

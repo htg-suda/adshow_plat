@@ -1,7 +1,7 @@
 package com.htg.common.vo.seller.system;
 import io.swagger.annotations.ApiModelProperty;
 
-public class SysSellerListItem {
+public class SysVerifySellerListItem {
     private static final long serialVersionUID = 1L;
 
     @ApiModelProperty(value = "商户id")
@@ -19,6 +19,13 @@ public class SysSellerListItem {
     @ApiModelProperty(value = "商户logo", example = "xxxx.png")
     private String logo;
 
+
+    @ApiModelProperty(value = " 0-待审核,1-审核通过已激活,-1 申请未通过 ,10-商户冻结", example = "1")
+    private Integer state;
+
+
+    @ApiModelProperty(value = "冻结原因或申请未通过原因", example = "logo 太难看了啊")
+    private String stateRemark;
 
     @ApiModelProperty(value = "商户类型,0-企业商户 1-个人商户", example = "0")
     private Integer type;
@@ -83,7 +90,21 @@ public class SysSellerListItem {
         this.logo = logo;
     }
 
+    public Integer getState() {
+        return state;
+    }
 
+    public void setState(Integer state) {
+        this.state = state;
+    }
+
+    public String getStateRemark() {
+        return stateRemark;
+    }
+
+    public void setStateRemark(String stateRemark) {
+        this.stateRemark = stateRemark;
+    }
 
     public Integer getType() {
         return type;
@@ -148,6 +169,8 @@ public class SysSellerListItem {
                 ", sn='" + sn + '\'' +
                 ", userId=" + userId +
                 ", logo='" + logo + '\'' +
+                ", state=" + state +
+                ", stateRemark='" + stateRemark + '\'' +
                 ", type=" + type +
                 ", adminName='" + adminName + '\'' +
                 ", adminMobPhone='" + adminMobPhone + '\'' +

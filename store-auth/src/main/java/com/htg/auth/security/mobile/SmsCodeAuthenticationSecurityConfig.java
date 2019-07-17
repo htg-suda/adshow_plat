@@ -112,15 +112,18 @@ public class SmsCodeAuthenticationSecurityConfig extends SecurityConfigurerAdapt
                 if (groupIdList != null && groupIdList.size() > 0) {  // 如果用户有用户组的话
                     List<GroupPermissionMapping> mappings = groupPermissionMappingService.selectByGroupIdList(groupIdList);
 
+
                     List<Integer> permissionIds = mappings.stream().map(GroupPermissionMapping::getPermissionId).collect(Collectors.toList());
                     log.info("permissionIds is {}", permissionIds);
-                    List<Permission> permissions = permissionService.selectBatchIds(permissionIds);
 
-                    log.info("permissions is {}", permissions);
-                    permissions.forEach((v) -> {
-                        log.info(v.toString());
-                    });
-                    authorities.addAll(permissions.stream().map(Permission::getCode).map((code) -> (new SimpleGrantedAuthority(code))).collect(Collectors.toList()));
+                    if(permissionIds!=null && permissionIds.size()>0){
+                        List<Permission> permissions = permissionService.selectBatchIds(permissionIds);
+                        log.info("permissions is {}", permissions);
+                        permissions.forEach((v) -> {
+                            log.info(v.toString());
+                        });
+                        authorities.addAll(permissions.stream().map(Permission::getCode).map((code) -> (new SimpleGrantedAuthority(code))).collect(Collectors.toList()));
+                    }
                 }
 
                 authorities.forEach((value) -> {

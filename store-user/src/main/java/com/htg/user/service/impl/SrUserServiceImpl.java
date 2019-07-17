@@ -50,7 +50,6 @@ public class SrUserServiceImpl extends ServiceImpl<SrUserMapper, SrUser> impleme
     @Autowired
     private StringRedisTemplate redisTemplate;
 
-
     @Override
     @Transactional
     public CommonResult<RespId> addUser(SrUserDto srUserDto) throws GlobalException {
@@ -116,27 +115,14 @@ public class SrUserServiceImpl extends ServiceImpl<SrUserMapper, SrUser> impleme
         SellerInfo sellerInfo = iSellerInfoService.selectById(sellerId);
 
 
-        SellerStore store = null;
-        try {
-            store = iSellerInfoService.getStoreByUserId(userId);
-        } catch (GlobalException e) {
-            // e.printStackTrace();
-            log.info("user has no store");
-        }
         Integer state = sellerInfo.getState();
 
         switch (state) {
             case SellerConst.STATE_WAIT_FOR_VERIFY:  //待审核
                 sellerStatusInfo.setShopStatus(ShopConst.STATE_WAIT_VERIFY);
                 break;
-            case SellerConst.STATE_VERIFY_PASS:     // 审核通过的话就去查看店铺的状态
-                if (store == null) {                // 店铺存在
+            case SellerConst.STATE_VERIFY_PASS:     // 审核通过,没有店铺
                     sellerStatusInfo.setShopStatus(ShopConst.STATE_VERIFY_PASS_NO_STORE);
-                } else if (store.getStatus() == StoreConst.STATUS_ACTIVE) {  // 店铺处在激活状态
-                    sellerStatusInfo.setShopStatus(ShopConst.STATE_VERIFY_PASS_HAS_STOER_ACTIVE);
-                } else {                                                 // 店铺存在,但是未激活
-                    sellerStatusInfo.setShopStatus(ShopConst.STATE_VERIFY_PASS_HAS_STOER_FROZEN);
-                }
                 break;
             case SellerConst.STATE_VERIFY_UNPASS:   // 审核未通过
                 sellerStatusInfo.setShopStatus(ShopConst.STATE_VERIFY_UNPASS);
@@ -203,7 +189,7 @@ public class SrUserServiceImpl extends ServiceImpl<SrUserMapper, SrUser> impleme
         /* 验证码过期后 取值为 -2 */
         if (remainTime > 0) {
             String storeCode = redisTemplate.opsForValue().get(key);
-            if (StringUtils.equals(msgCode, storeCode)) {   // redis 中的 code 和 传来的 验证码相同
+            if (StringUtils.equals(msgCode, storeCode)) {           // redis 中的 code 和 传来的 验证码相同
                 redisTemplate.delete(key);                          // 一旦验证成功就删除掉缓存中的验证码
                 return true;
             } else {

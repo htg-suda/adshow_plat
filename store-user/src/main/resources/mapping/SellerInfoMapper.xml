@@ -29,7 +29,7 @@
 
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="Map01" type="com.htg.common.vo.seller.system.SysSellerListItem">
+    <resultMap id="Map01" type="com.htg.common.vo.seller.system.SysVerifySellerListItem">
         <id column="id" property="id"/>
         <result column="sn" property="sn"/>
         <result column="user_id" property="userId"/>
@@ -79,14 +79,15 @@
 
 
     <select id="selectSellerVerfiyInfoByPage" resultMap="Map01"
-            parameterType="com.htg.common.dto.seller.system.SellerListDto">
+            parameterType="com.htg.common.dto.seller.system.SellerVerifyListDto">
         select
         <include refid="Map01_Colunm_List"/>
         from sr_seller_info sInfo left join sr_seller_enterprise_info eInfo
         on (sInfo.sn=eInfo.seller_sn) left join sr_user SU on sInfo.user_id =SU.id
         <where>
+            sInfo.state!=1
             <if test="state!=null">
-                sInfo.state=#{state}
+               and sInfo.state=#{state}
             </if>
             <if test="type!=null">
                 and  sInfo.type=#{type}
@@ -101,7 +102,56 @@
             <if test="sellerName!=null">
                 and sInfo.admin_name like #{sellerName} or eInfo.enterprise_name like #{sellerName}
             </if>
-
         </where>
+    </select>
+
+
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="Map02" type="com.htg.common.vo.seller.system.SysSellerListItem">
+        <id column="id" property="id"/>
+        <result column="sn" property="sn"/>
+        <result column="user_id" property="userId"/>
+        <result column="logo" property="logo"/>
+        <result column="type" property="type"/>
+        <result column="admin_name" property="adminName"/>
+        <result column="admin_mob_phone" property="adminMobPhone"/>
+        <result column="add_by" property="addBy"/>
+        <result column="enterprise_name" property="enterpriseName"/>
+        <result column="username" property="username"/>
+        <result column="nikename" property="nikename"/>
+    </resultMap>
+
+    <sql id="Map02_Colunm_List">
+        sInfo.id, sInfo.sn, sInfo.user_id, sInfo.logo,
+        sInfo.type, sInfo.admin_name,
+        sInfo.admin_mob_phone, sInfo.add_by
+        ,eInfo.enterprise_name
+        ,SU.username , SU.nikename
+    </sql>
+
+
+    <select id="selectSellerListInfoByPage" resultMap="Map02" resultType="com.htg.common.vo.seller.system.SysSellerListItem">
+        select
+        <include refid="Map02_Colunm_List"/>
+        from sr_seller_info sInfo left join sr_seller_enterprise_info eInfo
+        on (sInfo.sn=eInfo.seller_sn) left join sr_user SU on sInfo.user_id =SU.id
+        <where>
+            sInfo.state=1
+            <if test="sellerId!=null">
+                and  sInfo.sellerId=#{sellerId}
+            </if>
+            <if test="type!=null">
+                and  sInfo.type=#{type}
+            </if>
+            <if test="tel!=null">
+                and sInfo.admin_mob_phone=#{tel}
+            </if>
+            <!-- 对于个人商户 ,管理员名称 就相当于 企业中的企业民称 -->
+            <if test="sellerName!=null">
+                and sInfo.admin_name like #{sellerName} or eInfo.enterprise_name like #{sellerName}
+            </if>
+        </where>
+
     </select>
 </mapper>

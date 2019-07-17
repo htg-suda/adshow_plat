@@ -17,4 +17,8 @@ import com.htg.common.result.RespId;
 public interface IShowService extends IService<Show> {
 
     CommonResult<RespId> addShow(ShowDTO showDTO);
+
+    Integer getShowCountBySN(String sn);
+
+
 }

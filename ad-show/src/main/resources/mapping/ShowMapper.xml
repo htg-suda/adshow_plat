@@ -27,4 +27,8 @@
         id, name, num, url, main_img_url, add_by, author_id, del_flag
     </sql>
 
+    <select id="selectPlayCountByAuthorId" resultType="java.lang.Integer">
+        select count(*) from sr_show where author_id=#{authorId}
+    </select>
+
 </mapper>

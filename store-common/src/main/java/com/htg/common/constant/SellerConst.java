@@ -7,7 +7,6 @@ public class SellerConst {
     public static final int STATE_VERIFY_UNPASS = 2;
     public static final int STATE_FROZEN = 10;
 
-
     /*企业*/
     public static final int TYPE_ENTERPRISE = 0;
     /* 个人 */

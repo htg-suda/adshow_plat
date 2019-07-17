@@ -13,4 +13,6 @@ import com.htg.common.entity.adshow.Show;
  */
 public interface ShowMapper extends BaseMapper<Show> {
 
+    Integer selectPlayCountByAuthorId(Integer authorId);
+
 }

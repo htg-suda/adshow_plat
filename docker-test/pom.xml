@@ -29,6 +29,32 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
+            <!-- 配置 docker的maven 插件
+                使用dockerDirectory指定Dockerfile指定Dockerfile所在的路径
+                构建命令mvn clean package docker:build
+            -->
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>0.4.13</version>
+                <configuration>
+                    <!-- 指定镜像名 -->
+                    <imageName>docker-test:0.0.1</imageName>
+                    <!-- 指定Dockerfile 所在的目录-->
+                    <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
+                    <!-- 指定 maven 编译后 jar 包所在路径 -->
+                    <resources>
+                        <resource>
+                            <targetPath>/</targetPath>
+                            <directory>${project.build.directory}</directory>
+                            <include>${project.build.finalName}.jar</include>
+                        </resource>
+                    </resources>
+                </configuration>
+            </plugin>
+
+
         </plugins>
     </build>
 

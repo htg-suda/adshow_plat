@@ -19,7 +19,7 @@ public class SellerAddDto {
 
 
     @Valid
-    @NotNull(message = "商户银行信息不能为空")
+   // @NotNull(message = "商户银行信息不能为空")
     private SellerBankInfo sellerBankInfo;
 
     public SellerInfo getSellerInfo() {

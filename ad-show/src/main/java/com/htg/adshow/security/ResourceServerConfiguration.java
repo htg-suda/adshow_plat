@@ -38,6 +38,7 @@ public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter
                 antMatchers("/user/email/**").permitAll().
                 antMatchers("/mqtt/**").permitAll().
                 antMatchers("/mqtt_with_topic/**").permitAll().
+                antMatchers("/inner/**").permitAll().
                 antMatchers("/front/**").permitAll().
                 anyRequest().authenticated();
     }

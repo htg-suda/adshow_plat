@@ -23,8 +23,11 @@ public class MsgRecordVO {
      * 消息发起人
      */
     @ApiModelProperty(value = "消息发起人", example = "abcd")
-
     private String initiator;
+
+
+    @ApiModelProperty(value = "mac", example = "abcd")
+    private String mac;
 
     @ApiModelProperty(value = "消息发起时间", example = "abcd")
     private String startTime;
@@ -104,6 +107,15 @@ public class MsgRecordVO {
         this.updateTime = updateTime;
     }
 
+
+    public String getMac() {
+        return mac;
+    }
+
+    public void setMac(String mac) {
+        this.mac = mac;
+    }
+
     @Override
     public String toString() {
         return "MsgRecordVO{" +
@@ -111,6 +123,7 @@ public class MsgRecordVO {
                 ", tag='" + tag + '\'' +
                 ", sn='" + sn + '\'' +
                 ", initiator='" + initiator + '\'' +
+                ", mac='" + mac + '\'' +
                 ", startTime='" + startTime + '\'' +
                 ", endTime='" + endTime + '\'' +
                 ", updateTime='" + updateTime + '\'' +

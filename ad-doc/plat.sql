@@ -1,7 +1,6 @@
 create database sirui_ad_platform charset utf8;
 use sirui_ad_platform;
 
-
 alter table sr_agency modify create_user int  not null comment '创建人的id';
 alter table sr_agency modify update_user int  not null comment '创建人的id';
 
@@ -91,9 +90,9 @@ create table sr_device(
 )charset utf8 comment '终端设备表';
 
 
-alter table sr_scheduling add column   day_in_week varchar(20) not null comment '播放周次 1,2,3... '  after play_mode;
-alter table sr_scheduling add column   download_time datetime not null comment '节目下载时间'  after day_in_week;
-alter table sr_scheduling add column    remark varchar(255) default null comment '备注'  after download_time;
+-- alter table sr_scheduling add column   day_in_week varchar(20) not null comment '播放周次 1,2,3... '  after play_mode;
+-- alter table sr_scheduling add column   download_time datetime not null comment '节目下载时间'  after day_in_week;
+-- alter table sr_scheduling add column    remark varchar(255) default null comment '备注'  after download_time;
 
 create table sr_scheduling(
    id int primary key  auto_increment comment '排期id',
@@ -114,12 +113,12 @@ create table sr_scheduling(
 )charset utf8 comment '节目排期表';
 
 
-insert into sr_scheduling values
+/*insert into sr_scheduling values
                                  (1,'hello',1,1,now(),now(),0,0,0,now(),now()),
                                  (2,'java',1,1,now(),now(),0,0,0,now(),now()),
                                  (3,'001',1,1,now(),now(),0,0,0,now(),now()),
                                  (4,'main',1,1,now(),now(),0,0,0,now(),now()),
-                                 (5,'idea',1,1,now(),now(),0,0,0,now(),now());
+                                 (5,'idea',1,1,now(),now(),0,0,0,now(),now());*/
 
 create table sr_scheduling_show_rel(
     id int primary key  auto_increment comment '关系id',
@@ -135,11 +134,11 @@ create table sr_scheduling_show_rel(
 ) charset utf8 comment '排期节目关系表';
 
 
-insert into sr_scheduling_show_rel values
+/*insert into sr_scheduling_show_rel values
                                           (6,2,1,0,0,0,now(),now()),
                                           (7,3,1,0,0,0,now(),now()),
                                           (8,4,1,0,0,0,now(),now()),
-                                          (9,5,1,0,0,0,now(),now());
+                                          (9,5,1,0,0,0,now(),now());*/
 
 
 create table sr_scheduling_device_rel(
@@ -154,8 +153,8 @@ create table sr_scheduling_device_rel(
     update_time datetime not null comment '更新时间'
 ) charset utf8 comment '排期设备关系表';
 
-insert into sr_scheduling_device_rel values (1,1,1,0,0,0,now(),now());
-insert into sr_scheduling_device_rel values (2,1,2,0,0,0,now(),now());
+-- insert into sr_scheduling_device_rel values (1,1,1,0,0,0,now(),now());
+-- insert into sr_scheduling_device_rel values (2,1,2,0,0,0,now(),now());
 
 
 create table sr_show(
@@ -209,7 +208,7 @@ create table sr_play_record(
 
 
 
-
+/*
 insert into sr_show values
                            (1,'tomcat','132433124321','/show/zip/001.zip','/show/zip/001.png',1,2,0,0,0,now(),now()),
                            (2,'星球大战','132433124322','/show/zip/002.zip','/show/zip/002.png',1,2,0,0,0,now(),now()),
@@ -217,7 +216,7 @@ insert into sr_show values
                            (4,'蜘蛛侠','132433124324','/show/zip/004.zip','/show/zip/004.png',1,2,0,0,0,now(),now()),
                            (5,'无间道','132433124325','/show/zip/005.zip','/show/zip/005.png',1,2,0,0,0,now(),now());
 
-
+*/
 
 
 

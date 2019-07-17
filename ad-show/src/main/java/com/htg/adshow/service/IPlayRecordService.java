@@ -18,4 +18,8 @@ import com.htg.common.vo.adshow.PlayRecordPageVO;
 public interface IPlayRecordService extends IService<PlayRecord> {
 
     CommonResult<RespPage<PlayRecordPageVO>> queryPlayRecordByPage(PlayRecordPageDTO playRecordDTO);
+
+    Integer getPlayCountBySN(String sn);
+
+
 }

@@ -27,6 +27,7 @@ import com.htg.common.vo.seller.shop.ShopSellerInfoVo;
 import com.htg.common.vo.seller.system.SrUserVo;
 import com.htg.common.vo.seller.system.SysSellerInfoDetailsVo;
 import com.htg.common.vo.seller.system.SysSellerListItem;
+import com.htg.common.vo.seller.system.SysVerifySellerListItem;
 import com.htg.user.constant.AddByConst;
 import com.htg.user.mapper.SellerInfoMapper;
 import com.htg.user.service.*;
@@ -39,7 +40,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.UUID;
 
 /**
  * <p>
@@ -83,11 +83,11 @@ public class SellerInfoServiceImpl extends ServiceImpl<SellerInfoMapper, SellerI
         if (sellerType == SellerConst.TYPE_ENTERPRISE) {  // 企业商户
             if (enterpriseInfo == null) throw new GlobalException(CodeEnum.ADD_SELLER_TYPE_ERROR);
             /* 如果是企业帐号 ,法人信息必须要有 */
-            if (bankInfo.getLegalPersonIdentityBackUrl() == null || bankInfo.getLegalPersonIdentityFrontUrl() == null || bankInfo.getLegalPersonIdentityNum() == null || bankInfo.getLegalPersonName() == null)
-                throw new GlobalException(CodeEnum.ADD_SELLER_LEGAL_PERSON_ERROR);
+          /*  if (bankInfo.getLegalPersonIdentityBackUrl() == null || bankInfo.getLegalPersonIdentityFrontUrl() == null || bankInfo.getLegalPersonIdentityNum() == null || bankInfo.getLegalPersonName() == null)
+                throw new GlobalException(CodeEnum.ADD_SELLER_LEGAL_PERSON_ERROR);*/
             /* 如果是企业用户 那么开户许可证编号必须要有 是否为空 */
-            if (bankInfo.getBankAccountPermitNum() == null)
-                throw new GlobalException(CodeEnum.ADD_SELLER_BANK_ACCOUNT_PERMIT_NUM_ERROR);
+           /* if (bankInfo.getBankAccountPermitNum() == null)
+                throw new GlobalException(CodeEnum.ADD_SELLER_BANK_ACCOUNT_PERMIT_NUM_ERROR);*/
         }
 
 
@@ -172,23 +172,22 @@ public class SellerInfoServiceImpl extends ServiceImpl<SellerInfoMapper, SellerI
         }
     }
 
-
     @Override
-    public CommonResult<RespPage<SysSellerListItem>> getSellerList(SellerListDto listDto) {
-        Page<SysSellerListItem> page = new Page<>(listDto.getPageNum(), listDto.getPageSize());
+    public CommonResult<RespPage<SysVerifySellerListItem>> getSellerVerfiyList(SellerVerifyListDto listDto) {
+        Page<SysVerifySellerListItem> page = new Page<>(listDto.getPageNum(), listDto.getPageSize());
         String sellerName = listDto.getSellerName();
         if (sellerName != null) {
             listDto.setSellerName("%" + sellerName + "%");
         }
 
-        List<SysSellerListItem> sysSellerListItems = baseMapper.selectSellerVerfiyInfoByPage(page, listDto);
-         /*for(SysSellerListItem item:sysSellerListItems){
+        List<SysVerifySellerListItem> sysVerifySellerListItems = baseMapper.selectSellerVerfiyInfoByPage(page, listDto);
+         /*for(SysVerifySellerListItem item:sysVerifySellerListItems){
             if(item.getType()==SellerConst.TYPE_INDIVIDUALS){
                 item.setEnterpriseName(item.getAdminName());
             }
         }*/
         // long pages = page.getPages();
-        return CommonResult.success(new RespPage<>(sysSellerListItems, page.getTotal()));
+        return CommonResult.success(new RespPage<>(sysVerifySellerListItems, page.getTotal()));
     }
 
 
@@ -221,10 +220,11 @@ public class SellerInfoServiceImpl extends ServiceImpl<SellerInfoMapper, SellerI
         SellerBankInfo sellerBankInfo = bankInfoService.selectById(sellerInfo.getSn());
 
         if (sellerBankInfo == null) {
-            throw new GlobalException(CodeEnum.SELLER_HAS_NO_BANK_INFO);
-        }
 
-        BeanUtils.copyProperties(sellerBankInfo, bankInfoVo);
+            //  throw new GlobalException(CodeEnum.SELLER_HAS_NO_BANK_INFO);
+        } else {
+            BeanUtils.copyProperties(sellerBankInfo, bankInfoVo);
+        }
 
         Integer type = sellerInfo.getType();
         if (type == SellerConst.TYPE_ENTERPRISE) {  //商户类型,0-企业商户
@@ -323,11 +323,11 @@ public class SellerInfoServiceImpl extends ServiceImpl<SellerInfoMapper, SellerI
         if (sellerType == SellerConst.TYPE_ENTERPRISE) {  // 企业商户
             if (enterpriseInfo == null) throw new GlobalException(CodeEnum.ADD_SELLER_TYPE_ERROR);
             /* 如果是企业帐号 ,法人信息必须要有 */
-            if (sellerBankInfo.getLegalPersonIdentityBackUrl() == null || sellerBankInfo.getLegalPersonIdentityFrontUrl() == null || sellerBankInfo.getLegalPersonIdentityNum() == null || sellerBankInfo.getLegalPersonName() == null)
-                throw new GlobalException(CodeEnum.ADD_SELLER_LEGAL_PERSON_ERROR);
+          /*  if (sellerBankInfo.getLegalPersonIdentityBackUrl() == null || sellerBankInfo.getLegalPersonIdentityFrontUrl() == null || sellerBankInfo.getLegalPersonIdentityNum() == null || sellerBankInfo.getLegalPersonName() == null)
+                throw new GlobalException(CodeEnum.ADD_SELLER_LEGAL_PERSON_ERROR);*/
             /* 如果是企业用户 那么开户许可证编号必须要有 是否为空 */
-            if (sellerBankInfo.getBankAccountPermitNum() == null)
-                throw new GlobalException(CodeEnum.ADD_SELLER_BANK_ACCOUNT_PERMIT_NUM_ERROR);
+          /*  if (sellerBankInfo.getBankAccountPermitNum() == null)
+                throw new GlobalException(CodeEnum.ADD_SELLER_BANK_ACCOUNT_PERMIT_NUM_ERROR);*/
         }
 
         /* 对客服信息进行检查 */
@@ -340,7 +340,6 @@ public class SellerInfoServiceImpl extends ServiceImpl<SellerInfoMapper, SellerI
         // 对机构进行检测
         if (sellerInfo.getAgencyId() == null) throw new GlobalException(CodeEnum.MUST_HAVE_AGENCY);
         //todo 检测机构是否已经存在
-
 
         sellerInfo.setId(null);
         sellerInfo.setUserId(userId);
@@ -388,7 +387,17 @@ public class SellerInfoServiceImpl extends ServiceImpl<SellerInfoMapper, SellerI
 
         /* 获取商户信息 */
         SellerInfo sellerInfo = selectById(sellerId);
-
+     //   Integer cusServiceId = sellerInfo.getCusServiceId();
+       /* CustomServiceInfo serviceInfo = customServiceInfoService.selectById(cusServiceId);
+        if (sellerInfo != null) {
+            sellerInfoVo.setCusServiceName(serviceInfo.getServiceName());
+            Integer id = serviceInfo.getId();
+            SrUser srUser = srUserService.selectById(id);
+            if(srUser!=null){
+                String tel = srUser.getTel();
+                sellerInfoVo.setCusServiceTel(tel);
+            }
+        }*/
 
         if (sellerInfo == null) {
             throw new GlobalException(CodeEnum.SELLER_NOT_EXIST);
@@ -401,10 +410,10 @@ public class SellerInfoServiceImpl extends ServiceImpl<SellerInfoMapper, SellerI
 
         SellerBankInfo sellerBankInfo = bankInfoService.selectById(sellerInfo.getSn());
         if (sellerBankInfo == null) {
-            throw new GlobalException(CodeEnum.SELLER_HAS_NO_BANK_INFO);
+            //  throw new GlobalException(CodeEnum.SELLER_HAS_NO_BANK_INFO);
+        } else {
+            BeanUtils.copyProperties(sellerBankInfo, bankInfoVo);
         }
-        BeanUtils.copyProperties(sellerBankInfo, bankInfoVo);
-
 
         Integer type = sellerInfo.getType();
         if (type == SellerConst.TYPE_ENTERPRISE) {  //商户类型,0-企业商户
@@ -420,8 +429,6 @@ public class SellerInfoServiceImpl extends ServiceImpl<SellerInfoMapper, SellerI
         detailsVo.setSellerBankInfoVo(bankInfoVo);
 
         detailsVo.setSrUserVo(srUserVo);
-
-
         return CommonResult.success(detailsVo);
     }
 
@@ -464,5 +471,19 @@ public class SellerInfoServiceImpl extends ServiceImpl<SellerInfoMapper, SellerI
     public SellerInfo getSellerInfoBySN(String sellerSN) {
 
         return baseMapper.selectBySellerSn(sellerSN);
+    }
+
+    @Override
+    public CommonResult<RespPage<SysSellerListItem>> getSellerList(SellerListDto listDto) {
+        Page<SysSellerListItem> page = new Page<>(listDto.getPageNum(), listDto.getPageSize());
+        String sellerName = listDto.getSellerName();
+        if (sellerName != null) {
+            listDto.setSellerName("%" + sellerName + "%");
+        }
+
+        List<SysSellerListItem> sysSellerListItems = baseMapper.selectSellerListInfoByPage(page, listDto);
+
+        return CommonResult.success(new RespPage<>(sysSellerListItems, page.getTotal()));
+
     }
 }

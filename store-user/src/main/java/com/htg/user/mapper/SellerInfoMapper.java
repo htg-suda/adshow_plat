@@ -3,8 +3,10 @@ package com.htg.user.mapper;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.htg.common.dto.seller.system.SellerListDto;
+import com.htg.common.dto.seller.system.SellerVerifyListDto;
 import com.htg.common.entity.seller.SellerInfo;
 import com.htg.common.vo.seller.system.SysSellerListItem;
+import com.htg.common.vo.seller.system.SysVerifySellerListItem;
 
 import java.util.List;
 
@@ -22,5 +24,7 @@ public interface SellerInfoMapper extends BaseMapper<SellerInfo> {
 
    // SellerInfo selectByUserId(Integer userId);
 
-    List<SysSellerListItem> selectSellerVerfiyInfoByPage(Page<SysSellerListItem> page, SellerListDto listDto);
+    List<SysVerifySellerListItem> selectSellerVerfiyInfoByPage(Page<SysVerifySellerListItem> page, SellerVerifyListDto listDto);
+
+    List<SysSellerListItem> selectSellerListInfoByPage(Page<SysSellerListItem> page, SellerListDto listDto);
 }

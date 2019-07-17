@@ -1,15 +1,12 @@
 package com.htg.user.controller.system;
 
-import com.htg.common.dto.seller.system.SellerListDto;
-import com.htg.common.dto.seller.system.SellerVerifyDto;
-import com.htg.common.dto.seller.system.SysSellerAddDto;
-import com.htg.common.dto.seller.system.SysSellerModifyDto;
+import com.htg.common.dto.seller.system.*;
 import com.htg.common.result.CommonResult;
 import com.htg.common.result.RespId;
 import com.htg.common.result.RespPage;
-import com.htg.common.vo.seller.shop.SellerInfoDetailsVo;
 import com.htg.common.vo.seller.system.SysSellerInfoDetailsVo;
 import com.htg.common.vo.seller.system.SysSellerListItem;
+import com.htg.common.vo.seller.system.SysVerifySellerListItem;
 import com.htg.user.service.ISellerInfoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -31,6 +28,13 @@ public class SystemSellerController {
 
     /* 查询 商户并且分页 */
     @ApiOperation(value = "资质审核页面查看商户")
+    @ResponseBody
+    @PostMapping("/verify/list")
+    public CommonResult<RespPage<SysVerifySellerListItem>> getVerifySellerList(@Valid @RequestBody SellerVerifyListDto listDto) {
+        return sellerInfoService.getSellerVerfiyList(listDto);
+    }
+
+    @ApiOperation(value = "商户列表页面")
     @ResponseBody
     @PostMapping("/seller/list")
     public CommonResult<RespPage<SysSellerListItem>> getSellerList(@Valid @RequestBody SellerListDto listDto) {

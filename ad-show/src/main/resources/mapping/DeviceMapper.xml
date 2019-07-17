@@ -201,10 +201,9 @@
         from sr_scheduling_device_rel SSDREL
         left join sr_scheduling SRS on SRS.id=SSDREL.scheduling_id
         left join sr_scheduling_show_rel SSSR on SSSR.scheduling_id=SRS.id
-        left join sr_show SSH on SSH.id=SSSR.show_id where SSDREL.device_id=#{deviceId} and unix_timestamp(SRS.end_time)> unix_timestamp(now());
+        left join sr_show SSH on SSH.id=SSSR.show_id where SSDREL.device_id=#{deviceId} and
+        unix_timestamp(SRS.end_time)> unix_timestamp(now());
     </select>
-
-
 
 
     <select id="selectSchedulingVO" resultMap="SchedulingVOMap" parameterType="int">
@@ -215,5 +214,54 @@
         left join sr_show SSH on SSH.id=SSSR.show_id where SRS.id=#{schedulingId};
     </select>
 
+
+    <select id="selectSellerDevList" resultMap="DevListMap" parameterType="map">
+        select
+        <include refid="Dev_Column_List"/>
+        from sr_device SD
+        left join base_area BA1 on SD.province=BA1.codeid
+        left join base_area BA2 on SD.city=BA2.codeid
+        left join base_area BA3 on SD.county=BA3.codeid
+        <where>
+            SD.status!=0 and
+            SD.seller_sn = #{sellerSN}
+            <if test="deviceId!=null">
+                and SD.id = #{deviceId}
+            </if>
+            <if test="status!=null">
+                and SD.status = #{status}
+            </if>
+            <if test="onlineStatus!=null">
+                and SD.online_status = #{onlineStatus}
+            </if>
+        </where>
+    </select>
+
+
+    <select id="selectSellerDevVerifyList" resultMap="VerifyDevMap" parameterType="map">
+        select
+        <include refid="Verify_Column_List"/>
+        from sr_device
+        <where>
+            SD.seller_sn = #{sellerSN}
+            <if test="type!=null">
+                and type = #{type}
+            </if>
+            <if test="deviceId!=null">
+                and id = #{deviceId}
+            </if>
+            <if test="status!=null">
+                and status = #{status}
+            </if>
+        </where>
+    </select>
+
+
+    <select id="selectByCountBySn" resultType="java.lang.Integer">
+        select count(*)
+        from sr_device
+        where seller_sn = #{sellerSN}
+          and status != 0;
+    </select>
 
 </mapper>

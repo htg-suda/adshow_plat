@@ -5,7 +5,6 @@ import io.swagger.annotations.ApiModelProperty;
 import javax.validation.constraints.NotBlank;
 
 public class ShopSellerInfoVo {
-
     @ApiModelProperty(value = "商户logo",example = "xxxx.png")
     private String logo;
 
@@ -48,8 +47,20 @@ public class ShopSellerInfoVo {
     @ApiModelProperty(value = "客服id,参考客服表",example = "0")
     private Integer cusServiceId;
 
+
+    @ApiModelProperty(value = "客服昵称,参考客服表",example = "0")
+    private String cusServiceName;
+
+
+    @ApiModelProperty(value = "客服电话,参考客服表",example = "0")
+    private String cusServiceTel;
+
     @ApiModelProperty(value = "机构ID", example = "0")
     private Integer agencyId;
+
+    @ApiModelProperty(value = "机构名", example = "0")
+    private Integer agencyName;
+
 
     public String getLogo() {
         return logo;
@@ -145,5 +156,51 @@ public class ShopSellerInfoVo {
 
     public void setAgencyId(Integer agencyId) {
         this.agencyId = agencyId;
+    }
+
+    public String getCusServiceName() {
+        return cusServiceName;
+    }
+
+    public void setCusServiceName(String cusServiceName) {
+        this.cusServiceName = cusServiceName;
+    }
+
+    public String getCusServiceTel() {
+        return cusServiceTel;
+    }
+
+    public void setCusServiceTel(String cusServiceTel) {
+        this.cusServiceTel = cusServiceTel;
+    }
+
+
+    public Integer getAgencyName() {
+        return agencyName;
+    }
+
+    public void setAgencyName(Integer agencyName) {
+        this.agencyName = agencyName;
+    }
+
+    @Override
+    public String toString() {
+        return "ShopSellerInfoVo{" +
+                "logo='" + logo + '\'' +
+                ", state=" + state +
+                ", stateRemark='" + stateRemark + '\'' +
+                ", type=" + type +
+                ", adminName='" + adminName + '\'' +
+                ", adminIdentityNum='" + adminIdentityNum + '\'' +
+                ", adminMobPhone='" + adminMobPhone + '\'' +
+                ", businessRange='" + businessRange + '\'' +
+                ", adminIdentityFrontUrl='" + adminIdentityFrontUrl + '\'' +
+                ", adminIdentityBackUrl='" + adminIdentityBackUrl + '\'' +
+                ", cusServiceId=" + cusServiceId +
+                ", cusServiceName='" + cusServiceName + '\'' +
+                ", cusServiceTel='" + cusServiceTel + '\'' +
+                ", agencyId=" + agencyId +
+                ", agencyName=" + agencyName +
+                '}';
     }
 }

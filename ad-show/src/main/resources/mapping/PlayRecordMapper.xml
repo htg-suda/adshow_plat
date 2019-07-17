@@ -64,6 +64,7 @@
                 and unix_timestamp(PR.day) &lt;= #{endTime}
             </if>
         </where>
+        order by PR.update_time desc
     </select>
 
 </mapper>

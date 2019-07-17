@@ -90,7 +90,7 @@ public class FrontDevController {
     @ApiOperation(value = "上传截图")
     @ResponseBody
     @PostMapping("/upload_shot")
-    public CommonResult uploadShot(UploadShotDTO shotDTO) throws GlobalException {
+    public CommonResult uploadShot(@Valid @RequestBody UploadShotDTO shotDTO) throws GlobalException {
         redisTemplate.opsForValue().set(shotDTO.getSn(), shotDTO.getUrl(), 24, TimeUnit.HOURS);
         return CommonResult.success("设置成功");
     }

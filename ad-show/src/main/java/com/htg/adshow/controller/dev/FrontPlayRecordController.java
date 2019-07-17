@@ -114,7 +114,7 @@ public class FrontPlayRecordController {
 
         PlayRecord playRecord = new PlayRecord();
         Wrapper<PlayRecord> wrapper = new EntityWrapper<>();
-        wrapper.eq("day", day).and().eq("sn", playRecordDTO.getSn()).and().eq("show_id", playRecord.getShowId());
+        wrapper.eq("day", day).and().eq("sn", playRecordDTO.getSn()).and().eq("show_id", showId);
 
         PlayRecord playRecordExt = playRecordService.selectOne(wrapper);
         if (playRecordExt == null) {

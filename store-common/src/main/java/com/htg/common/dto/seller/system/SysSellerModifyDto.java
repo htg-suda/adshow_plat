@@ -1,8 +1,6 @@
 package com.htg.common.dto.seller.system;
-
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
-
 public class SysSellerModifyDto {
     @NotNull(message = "商户基本信息不能为空")
     @Valid
@@ -12,7 +10,7 @@ public class SysSellerModifyDto {
     private SellerEnterpriseModifyInfo enterpriseModifyInfo;
 
     @Valid
-    @NotNull(message = "商户银行信息不能为空")
+   // @NotNull(message = "商户银行信息不能为空")
     private SellerBankModifyInfo sellerBankModifyInfo;
 
     public SellerModifyInfo getSellerModifyInfo() {

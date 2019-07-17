@@ -2,10 +2,7 @@ package com.htg.user.service;
 
 import com.baomidou.mybatisplus.service.IService;
 import com.htg.common.dto.seller.shop.SellerAddDto;
-import com.htg.common.dto.seller.system.SellerListDto;
-import com.htg.common.dto.seller.system.SellerVerifyDto;
-import com.htg.common.dto.seller.system.SysSellerAddDto;
-import com.htg.common.dto.seller.system.SysSellerModifyDto;
+import com.htg.common.dto.seller.system.*;
 import com.htg.common.entity.seller.SellerInfo;
 import com.htg.common.entity.seller.SellerStore;
 import com.htg.common.exception.GlobalException;
@@ -15,6 +12,7 @@ import com.htg.common.result.RespPage;
 import com.htg.common.vo.seller.shop.SellerInfoDetailsVo;
 import com.htg.common.vo.seller.system.SysSellerInfoDetailsVo;
 import com.htg.common.vo.seller.system.SysSellerListItem;
+import com.htg.common.vo.seller.system.SysVerifySellerListItem;
 
 /**
  * <p>
@@ -30,7 +28,7 @@ public interface ISellerInfoService extends IService<SellerInfo> {
 
     CommonResult<RespId> addStore(SellerStore sellerStore) throws GlobalException;
 
-    CommonResult<RespPage<SysSellerListItem>> getSellerList(SellerListDto listDto);
+    CommonResult<RespPage<SysVerifySellerListItem>> getSellerVerfiyList(SellerVerifyListDto listDto);
 
 
     CommonResult<SellerInfoDetailsVo> getSellerInfoDetails(Integer userId) throws GlobalException;
@@ -51,4 +49,5 @@ public interface ISellerInfoService extends IService<SellerInfo> {
 
     SellerInfo getSellerInfoBySN(String sellerSN);
 
+    CommonResult<RespPage<SysSellerListItem>> getSellerList(SellerListDto listDto);
 }
